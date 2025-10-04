@@ -6,18 +6,20 @@
     <title>Italia-menu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
+     <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   </head>
 <body>
   <header class="site-header bg-dark text-white py-3 fixed-top">
     
     <div class="container d-flex justify-content-between">
-       <a class="visually-hidden-focusable" href="#contenu">Aller au contenu principal</a>
-      <h1>
+       <a class="visually-hidden-focusable" href="#contenu-menu">Aller au contenu principal</a>
+      <h2>
         <a class=" d-flex text-white text-decoration-none" href="index.html">
           <img src="images/logo.png" alt="Logo du site" class="me-2">
           <span class="visually-hidden">Italia</span>
         </a>
-      </h1>
+      </h2>
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="navbar-collapse">
           <ul class="navbar-nav ">
@@ -31,11 +33,107 @@
       </nav>
     </div>
   </header>
-  <main id="contenu" class="container">
+    <main class="container py-4" id="contenu-menu">
+    <h1 class="mb-4">Menu</h1>
 
+    <div class="row g-4">
+      <div class="col-12 col-lg-8">
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <div class="card h-100">
+              <img src="img/pizza.png" class="card-img-top" alt="Pizza margherita">
+              <div class="card-body">
+                <h2 class="h5 card-title">Pizza Margherita</h2>
+                <p class="card-text">Pizza maison vraiment vraiment bonne miam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card h-100">
+              <img src="img/pate.png" class="card-img-top" alt="Pâtes carbonara">
+              <div class="card-body">
+                <h2 class="h5 card-title">Pâtes italienne</h2>
+                <p class="card-text">C'est des pâtes, mais meilleur que celles des autres restaurants.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card h-100">
+              <img src="img/tiramisu.png" class="card-img-top" alt="Tiramisu">
+              <div class="card-body">
+                <h2 class="h5 card-title">Tiramisu</h2>
+                <p class="card-text">Un desert incontournable de la cuisine italienne.</p>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-6">
+            <div class="card h-100">
+              <img src="img/steak.png" class="card-img-top" alt="Bruschetta">
+              <div class="card-body">
+                <h2 class="h5 card-title">Steak</h2>
+                <p class="card-text">Un steak cuit à la poele, mais italien, donc meilleur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-12 col-lg-4">
+        <div class="row g-4">
+          <div class="col-12">
+            <div class="card h-100">
+              <img src="img/steak2.png" class="card-img-top" alt="Insalata Caprese">
+              <div class="card-body">
+                <h2 class="h5 card-title">Steak normal</h2>
+                <p class="card-text">Un steak qui ne provient pas de l'Italie, donc moins bon que l'autre</p>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-12">
+            <div class="card h-100">
+              <img src="img/cremeglacee.png" class="card-img-top" alt="Gelato">
+              <div class="card-body">
+                <h2 class="h5 card-title">Gelato</h2>
+                <p class="card-text">Une crème glacée normal, mais comme on a mit le nom en italien, elle est meilleur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/brochette.png" class="card-img-top" alt="Risotto">
+          <div class="card-body">
+            <h2 class="h5 card-title">Brochette</h2>
+            <p class="card-text">Brochette avec des aliments dessus.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/cafe.png" class="card-img-top" alt="Lasagne">
+          <div class="card-body">
+            <h2 class="h5 card-title">Café</h2>
+            <p class="card-text">Un café avec de la cafféine dedans.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/poutine.png" class="card-img-top" alt="Focaccia">
+          <div class="card-body">
+            <h2 class="h5 card-title">Poutine</h2>
+            <p class="card-text">Même si nous somme un restaurant italien, nous nous devons de mettre cette spécialité du Québec sur notre menu (Tokébakicitte).</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <a href="#top"
    class="btn btn-primary position-fixed bottom-0 end-0 m-3 rounded-circle shadow d-flex align-items-center justify-content-center"
    style="width:3rem;height:3rem;"
