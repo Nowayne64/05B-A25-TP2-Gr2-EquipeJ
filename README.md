@@ -13,6 +13,10 @@ Par teams
 # PLANIFICATEUR
 Aucun
 
+# AUTRES COMPOSANTS BT5 
+
+List group et badges
+
 # POLICES
 ## Titres: **Merriweather** — https://fonts.google.com/specimen/Merriweather  
 ## Texte courant : **Nunito** — https://fonts.google.com/specimen/Nunito

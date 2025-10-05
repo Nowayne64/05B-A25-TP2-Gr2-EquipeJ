@@ -13,13 +13,13 @@
   <header class="site-header bg-dark text-white py-3 fixed-top">
     
     <div class="container d-flex justify-content-between">
-       <a class="visually-hidden-focusable" href="#contenu">Aller au contenu principal</a>
-      <h1>
+       <a class="visually-hidden-focusable" href="#contenu3">Aller au contenu principal</a>
+      <h2>
         <a class=" d-flex text-white text-decoration-none" href="index.html">
-          <img src="images/logo.png" alt="Logo du site" class="me-2">
+          <img src="img/logo.png" alt="Logo du site" class="me-2">
           <span class="visually-hidden">Italia</span>
         </a>
-      </h1>
+      </h2>
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="navbar-collapse">
           <ul class="navbar-nav ">
@@ -33,8 +33,97 @@
       </nav>
     </div>
   </header>
-  <main id="contenu" class="container">
+  <main id="contenu3" class="container">
 
+<!-- formulaire-->
+
+<section class="py-5">
+  <div class="card shadow-sm">
+    <div class="card-header">
+      <h1 class="h4 m-0">Réserver</h1>
+    </div>
+    <div class="card-body">
+      <form action="mailto:Italia@hotmail.com" method="post" class="row g-4">
+  
+        <div class="col-12 col-md-6">
+          <label for="prenom" class="form-label">Prénom</label>
+          <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Ex. Marie" required>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <label for="nom" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="nom" name="nom" placeholder="Ex. Tremblay" required>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <label for="courriel" class="form-label">Courriel</label>
+          <input type="email" class="form-control" id="courriel" name="courriel" placeholder="nom@exemple.com" required>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <label for="telephone" class="form-label">Téléphone</label>
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+            <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="+1 111 111-1111">
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date" name="date" required>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <label for="heure" class="form-label">Heure</label>
+          <input type="time" class="form-control" id="heure" name="heure" required>
+        </div>
+
+    
+        <div class="col-12 col-md-6">
+          <label for="convives" class="form-label">Nombre de personnes</label>
+          <div class="input-group">
+            <input type="number" min="1" max="20" step="1" class="form-control" id="convives" name="convives" value="1" required>
+            <span class="input-group-text">pers.</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <label for="occasion" class="form-label">Occasion</label>
+          <select id="occasion" name="occasion" class="form-select" required>
+            <option value="" selected disabled>Choisir…</option>
+            <option>Souper en couple</option>
+            <option>Famille</option>
+            <option>Affaires</option>
+            <option>Anniversaire</option>
+            <option>Autre</option>
+          </select>
+        </div>
+
+        <fieldset class="col-12">
+          <legend class="fs-6 mb-2">Emplacement souhaité</legend>
+          <div class="d-flex flex-wrap gap-4">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="emplacement" id="salle" value="Salle" checked>
+              <label class="form-check-label" for="salle">Salle</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="emplacement" id="terrasse" value="Terrasse">
+              <label class="form-check-label" for="terrasse">Terrasse</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="emplacement" id="bar" value="Bar">
+              <label class="form-check-label" for="bar">Bar</label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="col-12 d-flex gap-2">
+          <button type="submit" class="btn btn-primary">Envoyer la réservation</button>
+          <button type="reset" class="btn btn-outline-secondary">Réinitialiser</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
 
 
 
