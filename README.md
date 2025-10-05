@@ -18,12 +18,12 @@ Aucun
 List group et badges
 
 # POLICES
-## Titres: **Merriweather** — https://fonts.google.com/specimen/Merriweather  
-## Texte courant : **Nunito** — https://fonts.google.com/specimen/Nunito
+## Titres:  — https://fonts.google.com/specimen/Roboto+Slab
+## Texte courant :  — https://fonts.google.com/specimen/Roboto
 
 # COULEURS 
-1. Primaire — `#9C2F2F` (rosso)  
-2. Secondaire — `#F2A65A` (saffron)  
-3. Accent — `#2E86AB` (blu)  
-4. Fond clair — `#FFF8F2`  
-5. Texte — `#2B2B2B`
+1. Primaire — `#008C45`  
+2. Secondaire — `#209495`  
+3. Accent — `#C3B340` 
+4. Fond clair — `#D17E50`  
+5. Texte — `#D92C30`
