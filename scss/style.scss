@@ -4,10 +4,11 @@
 $primary: #008C45;  
 $secondary: #209495;   
 
-@import "bootstrap-5.0.2/scss/bootstrap";
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
  
+@import "scss/bootstrap-5.0.2";
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Roboto Slab", serif;
@@ -16,3 +17,11 @@ h1,h2,h3,h4,h5,h6{
  body{
     font-family: "Roboto", serif;
  }
+ 
+
+ header.site-header {
+  @extend .text-white;
+  @extend .py-3;
+  @extend .fixed-top;
+  @extend .bg-primary;
+}
