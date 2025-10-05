@@ -6,9 +6,8 @@ $secondary: #209495;
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
  
-@import "scss/bootstrap-5.0.2";
+@import "bootstrap-5.0.2/scss/bootstrap"
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Roboto Slab", serif;
@@ -24,4 +23,9 @@ h1,h2,h3,h4,h5,h6{
   @extend .py-3;
   @extend .fixed-top;
   @extend .bg-primary;
+}
+
+nav.navbar {
+  @extend .navbar-expand-md;
+  @extend .navbar-dark;
 }
